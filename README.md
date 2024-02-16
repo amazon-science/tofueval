@@ -2,7 +2,7 @@
 
 Authors: Liyan Tang, Igor Shalyminov, Amy Wing-mei Wong, Jon Burnsky, Jake W. Vincent, Yu'an Yang, Siffi Singh, Song Feng, Hwanjun Song, Hang Su, Lijia Sun, Yi Zhang, Saab Mansour, Kathleen McKeown
 
-Please check out our work [here]() 📃
+Please check out our work [here [paper link coming soon]]() 📃
 
 This repository contains the annotations for the released benchmark dataset TofuEval. **Note that this is an evaluation benchmark. Data in the benchmark should not be used in training NLP models.**
 
