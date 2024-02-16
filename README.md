@@ -1,5 +1,8 @@
 # <img src="images/tofu-logo.png" alt="Local Image" width="45"> TofuEval: Evaluating Hallucinations of LLMs on Topic-Focused Dialogue Summarization
 
+Authors: Liyan Tang, Igor Shalyminov, Amy Wing-mei Wong, Jon Burnsky, Jake W. Vincent, Yu'an Yang, Siffi Singh, Song Feng, Hwanjun Song, Hang Su, Lijia Sun, Yi Zhang, Saab Mansour, Kathleen McKeown
+
+Please check out our work [here]() 📃
 
 This repository contains the annotations for the released benchmark dataset TofuEval. **Note that this is an evaluation benchmark. Data in the benchmark should not be used in training NLP models.**
 
