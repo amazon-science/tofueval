@@ -69,14 +69,12 @@ mediasum_test = obtain_dialogue_mediasum(dialogue_test).to_csv("mediasum_test_do
 |doc_id|The document id of a source document.|
 |annotation_id | The index of the source document in TofuEval. |
 |topic| Topic used to generate topic-focused summaries.|
-|model_name| The model used to generate topic-focused summaries. |
-|summary| Model generated summary.|
 |model_name| Model used to generate the summary. Models are anynomized and the orders of models for all topics are shuffled.|
 |sent_idx|The sentence index in model generated summaries. |
 |summ_sent| {sent_idx}-th summary sentence by {model_name}. A full summary can be aggregated by joining these summary sentences using {sent_idx}.|
 |sent_label| `yes` if the summary sentence is factual consistent, `no` otherwise.|
 |exp| Human written explanation for why {summ_sent} is factually inconsistent.|
-|type|Human annotated error type(s) for {summ_sent}. A sentence can have multiple error types.|
+|type| Human annotated error type(s) for {summ_sent}. A sentence can have multiple error types.|
 
 ### Update: Extra Annotations
 
@@ -90,7 +88,7 @@ We have extended TofuEval with factual consistency annotations for one more mode
 |doc_id|the document id of a source document.|
 |annotation_id | The index of the source document in TofuEval. |
 |topic| topic used to generate topic-focused summaries.|
-|key_points| human written key point.|
+|key_points| human written key points.|
 
 ## Topic Categorization
 
