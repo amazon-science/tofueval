@@ -2,7 +2,7 @@
 
 Authors: Liyan Tang, Igor Shalyminov, Amy Wing-mei Wong, Jon Burnsky, Jake W. Vincent, Yu'an Yang, Siffi Singh, Song Feng, Hwanjun Song, Hang Su, Lijia Sun, Yi Zhang, Saab Mansour, Kathleen McKeown
 
-Please check out our work [here [paper link coming soon]]() 📃
+Please check out our work [here](https://arxiv.org/pdf/2402.13249.pdf) 📃
 
 This repository contains the annotations for the released benchmark dataset TofuEval. **Note that this is an evaluation benchmark. Data in the benchmark should not be used in training NLP models.**
 
@@ -94,3 +94,16 @@ We have extended TofuEval with factual consistency annotations for one more mode
 
 `topic_category/{dataset}_topic_category.json` categorizes each topic into *main* or *marginal*.
 
+## Citation
+
+If you found the benchmark useful, please consider citing our work.
+```{bibtex}
+@misc{tang2024tofueval,
+      title={TofuEval: Evaluating Hallucinations of LLMs on Topic-Focused Dialogue Summarization}, 
+      author={Liyan Tang and Igor Shalyminov and Amy Wing-mei Wong and Jon Burnsky and Jake W. Vincent and Yu'an Yang and Siffi Singh and Song Feng and Hwanjun Song and Hang Su and Lijia Sun and Yi Zhang and Saab Mansour and Kathleen McKeown},
+      year={2024},
+      eprint={2402.13249},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
